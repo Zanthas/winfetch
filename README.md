@@ -47,6 +47,7 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
 >NOTE: Any Cygwin PTY will do instead of this, and you can use
 >another shell. The Cygwin Terminal or "Mintty" is installed with
 >the Cygwin base and works fine, you can use a Cygwin built Lua, too
+
 ###Screenshots:
 ---
 
