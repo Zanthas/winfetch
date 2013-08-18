@@ -40,9 +40,7 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
    Unzip it into this directory, and you can start it
    with "lua source.lua" from your favorite shell or CMD.
 +  A method of ANSI escape codes:
-   http://adoxa.3eeweb.com/ansicon/
-
-   This is an application that adds ANSI escape codes to CMD
+   http://adoxa.3eeweb.com/ansicon/ This is an application that adds ANSI escape codes to CMD
    >NOTE: Any Cygwin PTY will do instead of this, and you can use
    >another shell. The Cygwin Terminal or "Mintty" is installed with
    >the Cygwin base and works fine, you can use a Cygwin built Lua, too
