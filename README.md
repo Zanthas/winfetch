@@ -67,10 +67,6 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
 	<img src="http://goput.it/2jvh.png" alt="CMDFetch"/>
 </p>
 <p align="center">
-	CMDFetch in urxvt, plain config and a few arguments
-	<img src="http://goput.it/2jvh.png" alt="CMDFetch"/>
-</p>
-<p align="center">
 	CMDFetch in mintty with a Windows 8 logo and a few arguments. 256 color support visible.
 	<img src="http://goput.it/5lal.png" alt="CMDFetch"/>
 </p>
