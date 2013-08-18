@@ -7,12 +7,10 @@ local                 usedLines = {"Name","Kernel","OS","Memory","Uptime",
                                    "MoBo","Font","WM","Shell","Processes",
                                    "Music Player","IRC Client"}
 ]]
-----[[
                       usedLines = {"Name","Kernel","OS","Memory","Uptime",
                                    "Visual Style","Resolution","CPU","GPU","Disk Space",
                                    "bbLean Theme","Now Playing","Terminal","Font",
                                    "WM","Shell","Music Player","IRC Client"}
---]]
 local               fhost,fport = "localhost","3333"  --  Host and port for foobar
 local               mhost,mport = "localhost","6600"  --  Host and port for MPD
 local            dominantPlayer = "foobar"  --  Change to "mpd" to check for MPD first
