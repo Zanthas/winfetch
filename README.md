@@ -43,35 +43,41 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
    http://adoxa.3eeweb.com/ansicon/
    This is an application that adds ANSI escape codes to CMD
    After you download it, run it and you can use it as you would CMD
++  Lua Socket if you want the "Now Playing" line to work. If you don't want to install LuaSocket,
+   Just remove the "Now Playing" bit in the ```usedLines``` table at the top of the script.
++  COM Automation Server if you want the "Now Playing" line to work with foobar. Get it here: http://foosion.foobar2000.org/0.9/
 
 >NOTE: Any Cygwin PTY will do instead of this, and you can use
 >another shell. The Cygwin Terminal or "Mintty" is installed with
 >the Cygwin base and works fine, you can use a Cygwin built Lua, too
-
 ###Screenshots:
 ---
 
 <p align="center">
-	CMDFetch with all lines enabled in the config and the help page
+	"CMDFetch with all lines enabled in the config and the help page"
 	<img src="http://goput.it/u29z.png" alt="CMDFetch"/>
 </p>
 <p align="center">
-	CMDFetch in bash in cmd, plain config and no arguments
+	"CMDFetch in bash in cmd, plain config and no arguments"
 	<img src="http://goput.it/g3kw.png" alt="CMDFetch"/>
 </p>
 <p align="center">
-	CMDFetch in cmd with ansicon, plain config and no arguments
+	"CMDFetch in cmd with ansicon, plain config and no arguments"
 	<img src="http://goput.it/h3po.png" alt="CMDFetch"/>
 </p>
 <p align="center">
-	CMDFetch in urxvt, plain config and a few arguments
+	"CMDFetch in urxvt, plain config and a few arguments"
 	<img src="http://goput.it/2jvh.png" alt="CMDFetch"/>
 </p>
 <p align="center">
-	CMDFetch in mintty with a Windows 8 logo and a few arguments. 256 color support visible.
+	"CMDFetch in urxvt, plain config and a few arguments"
+	<img src="http://goput.it/2jvh.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in mintty with a Windows 8 logo and a few arguments. 256 color support visible."
 	<img src="http://goput.it/5lal.png" alt="CMDFetch"/>
 </p>
 <p align="center">
-	CMDFetch in urxvt with all lines enabled in the config and several arguments. 256 color support visible
+	"CMDFetch in urxvt with all lines enabled in the config and several arguments. 256 color support visible"
 	<img src="http://goput.it/0miy.png" alt="CMDFetch"/>
 </p>
