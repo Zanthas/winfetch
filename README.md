@@ -15,18 +15,18 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
   -d, --dull            Use only dull colors
       --showWarning     Show the Ansicon/Cygwin PTY warning.
   -a, --align           Align the lines
-  -s  --stripe [4>#>-1] stripe the colors for the logo in the manner of screenfo
+  -s, --stripe [4>#>-1] stripe the colors for the logo in the manner of screenfo
                             Argument: 0: do not stripe (auto)
                                       1: stripe vertically
                                       2: stripe horizontally
                                       3: stripe diagonally
-  -B  --block [#>0]     use a stripe step as high and/or as wide as the argument
+  -B, --block [#>0]     use a stripe step as high and/or as wide as the argument
                             Default: 1
   -L, --lefty           Flip the logo and information
   -C, --center          Center information vertically relative to logo
-  -2, --256colors       Use 256 colors
-      --18colors        Force use of 18 colors, do not allow automatic switching
-  -D  --down            Position the logo at the bottom of the information
+  -2, --256color        Use 256 colors
+  -1, --18color         Force use of 18 colors, do not allow automatic switching
+  -D, --down            Position the logo at the bottom of the information
 ```
 ###Requires:
 ---
@@ -47,3 +47,34 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
 >NOTE: Any Cygwin PTY will do instead of this, and you can use
 >another shell. The Cygwin Terminal or "Mintty" is installed with
 >the Cygwin base and works fine, you can use a Cygwin built Lua, too
+###Screenshots:
+---
+
+<p align="center">
+	"CMDFetch with all lines enabled in the config and the help page"
+	<img src="http://goput.it/u29z.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in bash in cmd, plain config and no arguments"
+	<img src="http://goput.it/g3kw.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in cmd with ansicon, plain config and no arguments"
+	<img src="http://goput.it/h3po.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in urxvt, plain config and a few arguments"
+	<img src="http://goput.it/2jvh.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in urxvt, plain config and a few arguments"
+	<img src="http://goput.it/2jvh.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in mintty with a Windows 8 logo and a few arguments. 256 color support visible."
+	<img src="http://goput.it/5lal.png" alt="CMDFetch"/>
+</p>
+<p align="center">
+	"CMDFetch in urxvt with all lines enabled in the config and several arguments. 256 color support visible"
+	<img src="http://goput.it/0miy.png" alt="CMDFetch"/>
+</p>
