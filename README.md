@@ -41,14 +41,17 @@ This is version 3.0.0 of CMDFetch. CMDFetch is a clone of screenfetch/screenfo f
    with "lua source.lua" from your favorite shell or CMD.
 +  A method of ANSI escape codes:
    http://adoxa.3eeweb.com/ansicon/
+
    This is an application that adds ANSI escape codes to CMD
    >NOTE: Any Cygwin PTY will do instead of this, and you can use
    >another shell. The Cygwin Terminal or "Mintty" is installed with
    >the Cygwin base and works fine, you can use a Cygwin built Lua, too
-   After you download it, run it and you can use it as you would CMD
+   >After you download it, run it and you can use it as you would CMD
+
 +  Lua Socket if you want the "Now Playing" line to work. If you don't want to install LuaSocket,
    Just remove the "Now Playing" bit in the ```usedLines``` table at the top of the script.
 +  COM Automation Server if you want the "Now Playing" line to work with foobar. Get it here: http://foosion.foobar2000.org/0.9/
+
 ###Screenshots:
 ---
 
